@@ -1,4 +1,2 @@
-*.xls
-*.xlsx
 *.csv
 node_modules/
