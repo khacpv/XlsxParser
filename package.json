@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node activated.js",
+    "inactive": "node inactive.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "csv-writer": "^1.6.0",
+    "exceljs": "^4.2.1",
+    "moment": "^2.29.1",
     "read-excel-file": "^5.1.0"
   }
 }
