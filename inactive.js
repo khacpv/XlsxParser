@@ -4,8 +4,8 @@ const axios = require('axios');
 const moment = require('moment');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
-const PATH_INPUT = './device_inactive.xlsx'; // XLSX (2004) format
-const PATH_OUTPUT = './device_inactive.csv';
+const PATH_INPUT = './data/device_inactive.xlsx'; // XLSX (2004) format
+const PATH_OUTPUT = './out/device_inactive.csv';
 
 const main = async () => {
   const csvWriter = createCsvWriter({
@@ -49,4 +49,4 @@ const main = async () => {
   });
 };
 
-main();
+module.exports = main;

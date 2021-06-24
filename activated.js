@@ -3,8 +3,8 @@ const axios = require('axios');
 const moment = require('moment');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
-const PATH_CSV = './data_20210614_activated.csv';
-const PATH_DATA = './data_20210614.xlsx';
+const PATH_DATA = './data/data_20210614.xlsx';
+const PATH_CSV = './out/data_20210614_activated.csv';
 
 const agencies = {
   'Điện Máy Lạc Hồng': 159,
@@ -183,4 +183,4 @@ const main = async () => {
   await workActivatedDevices();
 };
 
-main();
+module.exports = main;

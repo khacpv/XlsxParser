@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node activated.js",
+    "start": "node index.js",
+    "activated": "node activated.js",
     "inactive": "node inactive.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
